@@ -1,5 +1,4 @@
-package T5.Bucles;
-import java.util.Scanner;
+package T5.Bucles.A;
 
 public class EJ9 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package T5.Bucles;
+package T5.Bucles.A;
 
 public class EJ3 {
     public static void main(String[] args) {

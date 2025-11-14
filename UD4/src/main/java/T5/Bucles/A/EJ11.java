@@ -1,4 +1,4 @@
-package T5.Bucles;
+package T5.Bucles.A;
 
 public class EJ11 {
     public static void main(String[] args) {
@@ -11,13 +11,11 @@ public class EJ11 {
                 pares += i;
             }
 
-            else{
+            else {
                 impares += i;
             }
-
-            System.out.println("Pares: " + pares + " Impares: " + impares);
         }
 
-
+        System.out.println("Pares: " + pares + " Impares: " + impares);
     }
 }

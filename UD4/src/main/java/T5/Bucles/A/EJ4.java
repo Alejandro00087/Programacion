@@ -1,4 +1,4 @@
-package T5.Bucles;
+package T5.Bucles.A;
 import java.util.Scanner;
 
 public class EJ4 {
