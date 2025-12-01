@@ -1,4 +1,4 @@
-package T6;
+package T6.A;
 import java.util.Scanner;
 
 public class EJ4 {

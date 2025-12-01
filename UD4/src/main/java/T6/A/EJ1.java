@@ -1,7 +1,7 @@
-package T6;
+package T6.A;
 import java.util.Scanner;
 
-public class EJ3 {
+public class EJ1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -13,16 +13,9 @@ public class EJ3 {
             NUMEROS[i] = sc.nextDouble();
         }
 
-        double max = NUMEROS[0];
-        double min = NUMEROS[0];
-
+        System.out.println("\nLos números reales ingresados son:");
         for (int i = 0; i < 10; i++) {
-            if (NUMEROS[i] > max) max = NUMEROS[i];
-            if (NUMEROS[i] < min) min = NUMEROS[i];
+            System.out.println("Posición " + i + ": " + NUMEROS[i]);
         }
-
-        System.out.println("El numero máximo es: " + max);
-        System.out.println("El numero mínimo es: " + min);
-
     }
 }
