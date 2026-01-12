@@ -10,8 +10,12 @@ public class EJ12 {
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            System.out.printf("%d\t\n", i );
+            for (int j = 1; j <= n; j++) {
+                System.out.printf("%d\t", i * j);
+            }
+            System.out.println();
         }
 
+        sc.close();
     }
 }
