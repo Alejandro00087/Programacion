@@ -1,8 +1,5 @@
 package T8;
-import java.util.ArrayList;
-import java.util.InputMismatchException;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class EJ4 {
 
